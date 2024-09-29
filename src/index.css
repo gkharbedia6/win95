@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "W95FA";
+  src: url("../src/assets/fonts/W95FA.otf") format("opentype");
+  src: url("../src/assets/fonts/w95fa.woff") format("woff");
+  src: url("../src/assets/fonts/w95fa.woff2") format("woff2");
+  font-weight: 400;
+}
+
+.old_windows-window-border {
+  border: 2px solid #f4ebeb;
+  border-right: 2px solid #413f3f;
+  border-bottom: 2px solid #413f3f;
+  border-radius: 1px;
+}
