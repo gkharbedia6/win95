@@ -23,7 +23,6 @@ const DragNDropWrapper: FC<iDragNdropProps> = ({ children }) => {
       highestZIndex++;
       element.style.zIndex = `${highestZIndex}`;
 
-      // Get the mouse cursor position at startup
       initialX = event.clientX;
       initialY = event.clientY;
 
@@ -34,13 +33,11 @@ const DragNDropWrapper: FC<iDragNdropProps> = ({ children }) => {
     const moveElement = (event: MouseEvent) => {
       event.preventDefault();
 
-      // Calculate new cursor position
       posX = initialX - event.clientX;
       posY = initialY - event.clientY;
       initialX = event.clientX;
       initialY = event.clientY;
 
-      // Set the element's new position
       element.style.top = `${element.offsetTop - posY}px`;
       element.style.left = `${element.offsetLeft - posX}px`;
     };

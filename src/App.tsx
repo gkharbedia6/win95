@@ -1,11 +1,12 @@
 import DragNDropWrapper from "./utils/drag-n-drop-wrapper";
 import OldWindowsWrapper from "./ui/old_windows-wrapper";
 import { profilePictures } from "./data/profilePictures";
+import Folder from "./ui/folder";
 
 function App() {
   return (
     <>
-      <div className="flex justify-start bg-old_windows_green items-start w-full h-screen p-32 font-primary">
+      <div className="flex relative justify-start bg-old_windows_green flex-col w-full overflow-x-hidden  h-screen p-2 font-primary">
         {profilePictures
           .slice()
           .reverse()
@@ -18,6 +19,13 @@ function App() {
               </OldWindowsWrapper>
             </DragNDropWrapper>
           ))}
+        <Folder
+          position={{
+            top: 50,
+            right: 50,
+          }}
+        />
+        {/* </div> */}
       </div>
     </>
   );
