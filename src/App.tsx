@@ -25,7 +25,6 @@ function App() {
             right: 50,
           }}
         />
-        {/* </div> */}
       </div>
     </>
   );
