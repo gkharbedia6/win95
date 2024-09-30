@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/data/profilepictures.ts","./src/types/profilepicture.type.ts","./src/ui/folder.tsx","./src/ui/old_windows-wrapper.tsx","./src/ui/x-button.tsx","./src/utils/drag-n-drop-wrapper.tsx","./src/utils/tailwind-merge.ts"],"version":"5.6.2"}

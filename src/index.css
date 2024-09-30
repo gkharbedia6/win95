@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  cursor: url("./assets/icons/arrowCursor.cur") 0 0, auto;
+* {
+  pointer-events: auto;
+  cursor: url("./assets/icons/helloKitty.png") 0 0, auto !important;
 }
 
 @font-face {
