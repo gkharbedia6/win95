@@ -1,4 +1,4 @@
-import testProfileOne from "../assets/images/testProfileOne.png";
+import testProfileOne from "/assets/images/testProfileOne.png";
 import { IProfilePicture } from "../types/profilePicture.type";
 
 export const profilePictures: IProfilePicture[] = [

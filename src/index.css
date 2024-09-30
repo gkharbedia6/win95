@@ -4,14 +4,14 @@
 
 * {
   pointer-events: auto;
-  cursor: url("./assets/icons/helloKitty.png") 0 0, auto !important;
+  cursor: url("/assets/icons/helloKitty.png") 0 0, auto !important;
 }
 
 @font-face {
   font-family: "W95FA";
-  src: url("../src/assets/fonts/W95FA.otf") format("opentype");
-  src: url("../src/assets/fonts/w95fa.woff") format("woff");
-  src: url("../src/assets/fonts/w95fa.woff2") format("woff2");
+  src: url("/assets/fonts/W95FA.otf") format("opentype");
+  src: url("/assets/fonts/w95fa.woff") format("woff");
+  src: url("/assets/fonts/w95fa.woff2") format("woff2");
   font-weight: 400;
 }
 

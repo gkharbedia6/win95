@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import folder from "../assets/images/folder.png";
-import folderBlue from "../assets/images/folderBlue.png";
+import folder from "/assets/images/folder.png";
+import folderBlue from "/assets/images/folderBlue.png";
 
 interface Position {
   top?: number;
